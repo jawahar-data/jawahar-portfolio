@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "SQL",
       "Git",
     ],
-    repoUrl: "https://github.com/j26219096-prog/flowmatrix-pipeline",
+    repoUrl: "https://github.com/jawahar-data/flowmatrix-pipeline",
     liveUrl: "https://flowmarics.streamlit.app/",
     badge: "Featured",
   },
@@ -60,8 +60,8 @@ export const projects: Project[] = [
       "Deployed the frontend to GitHub Pages for continuous, zero-downtime public access.",
     ],
     techStack: ["Python", "SQL", "ETL", "OpenWeatherMap API"],
-    repoUrl: "https://github.com/j26219096-prog/weather-etl-dashboard",
-    liveUrl: "https://j26219096-prog.github.io/weather-etl-dashboard/",
+    repoUrl: "https://github.com/jawahar-data/weather-etl-dashboard",
+    liveUrl: "https://jawahar-data.github.io/weather-etl-dashboard/",
   },
   {
     id: "kisan-sahayak",
@@ -76,7 +76,7 @@ export const projects: Project[] = [
       "Delivered real-time crop disease diagnostics and local market pricing, removing the language barrier between farmers and data.",
     ],
     techStack: ["Python", "SQL", "NLP", "Data Analysis"],
-    repoUrl: "https://github.com/j26219096-prog/Kisan-Sahayak",
+    repoUrl: "https://github.com/jawahar-data/Kisan-Sahayak",
   },
   {
     id: "3d-asset-pipeline",
@@ -92,8 +92,8 @@ export const projects: Project[] = [
     ],
     techStack: ["Python", "FastAPI", "Uvicorn", "Three.js", "ETL", "Caching"],
     repoUrl:
-      "https://github.com/j26219096-prog/Real-Time-3D-Asset-Data-Pipeline-Serving-API",
+      "https://github.com/jawahar-data/Real-Time-3D-Asset-Data-Pipeline-Serving-API",
     liveUrl:
-      "https://j26219096-prog.github.io/Real-Time-3D-Asset-Data-Pipeline-Serving-API/",
+      "https://jawahar-data.github.io/Real-Time-3D-Asset-Data-Pipeline-Serving-API/",
   },
 ];

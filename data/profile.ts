@@ -8,7 +8,7 @@ export const profile = {
   location: "Trichy, Tamil Nadu, India",
   email: "j26219096@gmail.com",
   linkedin: "https://www.linkedin.com/in/jawahar-r-2114a932b",
-  github: "https://github.com/j26219096-prog",
+  github: "https://github.com/jawahar-data",
   resumePath: "/Jawahar_R_Resume.pdf",
   education: {
     degree: "B.Tech — Artificial Intelligence & Data Science",

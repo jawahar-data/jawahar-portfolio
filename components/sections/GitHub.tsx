@@ -107,7 +107,7 @@ export default function GitHubSection() {
                 className="text-sm font-medium"
                 style={{ color: "var(--text-primary)" }}
               >
-                j26219096-prog
+                jawahar-data
               </p>
               <p className="text-xs" style={{ color: "var(--text-muted)" }}>
                 {profile.github}
