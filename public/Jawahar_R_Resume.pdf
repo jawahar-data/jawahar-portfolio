@@ -1,407 +1,86 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (ReportLab PDF Library \055 \050opensource\051)
-/Author (\050anonymous\051)
-/CreationDate (D\07220260824133746\05300\04700\047)
-/Creator (\050unspecified\051)
-/Keywords ()
-/ModDate (D\07220260824133746\05300\04700\047)
-/Subject (\050unspecified\051)
-/Title (\050anonymous\051)
-/Trapped (\057False)
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font 6 0 R
-/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Parent 2 0 R
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
 >>
 endobj
 5 0 obj
 <<
-/Length 9307
+/BaseFont /Symbol /Name /F4 /Subtype /Type1 /Type /Font
 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 49.2 736.2 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 3 Tm /F2 18 Tf 21 TL 201.81 0 Td (JAWAHAR R) Tj T* -201.81 0 Td ET
-Q
-Q
-q
-1 0 0 1 49.2 722.2 cm
-q
-BT 1 0 0 1 0 2.3 Tm 145.4634 0 Td 12 TL /F1 9.7 Tf .266667 .266667 .266667 rg (Aspiring Data Engineer \267 AI & Data Science Student) Tj T* -145.4634 0 Td ET
-Q
-Q
-q
-1 0 0 1 49.2 709.2 cm
-q
-BT 1 0 0 1 0 3.5 Tm 32.33625 0 Td 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (j26219096@gmail.com  ) Tj (|) Tj (  linkedin.com/in/jawahar-r-2114a932b  ) Tj (|) Tj (  github.com/jawahar-data  ) Tj (|) Tj (  Trichy, Tamil Nadu, India) Tj T* -32.33625 0 Td ET
-Q
-Q
-q
-1 0 0 1 49.2 690.2 cm
-q
-.12549 .211765 .360784 rg
-BT 1 0 0 1 0 1.7 Tm /F2 10.3 Tf 12 TL (SUMMARY) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 687.6 cm
-q
-.6 w
-1 J
-.12549 .211765 .360784 RG
-n 0 0 m 513.6 0 l S
-Q
-Q
-q
-1 0 0 1 49.2 626.6 cm
-q
-BT 1 0 0 1 0 49.3 Tm 11.6 TL /F1 8.7 Tf .101961 .101961 .101961 rg (Data Engineering student who builds and ships production-style pipelines rather than just studying them \227 including FlowMatrix, a) Tj T* (Kafka-to-dbt e-commerce pipeline benchmarked against Rakuten Ichiba's data model, deployed live with automated data-quality) Tj T* (checks. Comfortable across ingestion \(Kafka, REST APIs\), transformation \(PySpark, dbt\), orchestration \(Airflow\), validation \(Great) Tj T* (Expectations\), and serving \(FastAPI, PostgreSQL, Streamlit\). Certified across IBM, Google Cloud, and NPTEL. Targeting a Data) Tj T* (Engineering internship where pipeline reliability and clean data modeling matter as much as shipping fast.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 609.1 cm
-q
-.12549 .211765 .360784 rg
-BT 1 0 0 1 0 1.7 Tm /F2 10.3 Tf 12 TL (SKILLS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 606.5 cm
-q
-.6 w
-1 J
-.12549 .211765 .360784 RG
-n 0 0 m 513.6 0 l S
-Q
-Q
-q
-1 0 0 1 49.2 592.2 cm
-q
-BT 1 0 0 1 12 2.6 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.7 Tf (Languages:) Tj /F1 8.7 Tf ( Python, SQL, JavaScript, HTML/CSS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 567.6 cm
-q
-BT 1 0 0 1 12 13.9 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.7 Tf (Data Engineering:) Tj /F1 8.7 Tf ( ETL/ELT, Apache Kafka, PySpark, dbt, Apache Airflow, Great Expectations, Data Modeling, Real-Time) Tj T* (Processing) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 554.3 cm
-q
-BT 1 0 0 1 12 2.6 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.7 Tf (Databases & Cloud:) Tj /F1 8.7 Tf ( PostgreSQL, Neon Serverless, Docker, Google Cloud Platform, Render.com) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 541 cm
-q
-BT 1 0 0 1 12 2.6 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.7 Tf (Frameworks:) Tj /F1 8.7 Tf ( FastAPI, Uvicorn, REST API Design, Streamlit  ) Tj ( ) Tj /F2 8.7 Tf (AI/ML:) Tj /F1 8.7 Tf ( NLP, Machine Learning, Generative AI) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 523.5 cm
-q
-.12549 .211765 .360784 rg
-BT 1 0 0 1 0 1.7 Tm /F2 10.3 Tf 12 TL (EXPERIENCE) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 520.9 cm
-q
-.6 w
-1 J
-.12549 .211765 .360784 RG
-n 0 0 m 513.6 0 l S
-Q
-Q
-q
-1 0 0 1 49.2 504.9 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 2.9 Tm /F2 9.1 Tf 12 TL (Data Analytics Virtual Internship) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 492.4 cm
-q
-BT 1 0 0 1 0 3.8 Tm 12 TL /F3 8.2 Tf .266667 .266667 .266667 rg (AICTE + EduSkills, supported by Google Cloud  ) Tj (|) Tj (  Jun \226 Aug 2026 \(8 weeks\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 467.8 cm
-q
-BT 1 0 0 1 12 13.9 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 Completed an 8-week Data Analytics Virtual Internship under the National Internship Portal \(AICTE + EduSkills\), supported by) Tj T* (Google Cloud.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 451.8 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 2.9 Tm /F2 9.1 Tf 12 TL (AI-ML Virtual Internship) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 439.3 cm
-q
-BT 1 0 0 1 0 3.8 Tm 12 TL /F3 8.2 Tf .266667 .266667 .266667 rg (AICTE + EduSkills, supported by Google for Developers  ) Tj (|) Tj (  Oct \226 Dec 2025 \(10 weeks\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 414.7 cm
-q
-BT 1 0 0 1 12 13.9 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 Completed a 10-week AI-ML Virtual Internship; presented the Live City Pulse data pipeline at the national AI For Bharat) Tj T* (Hackathon and college project expo.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 397.2 cm
-q
-.12549 .211765 .360784 rg
-BT 1 0 0 1 0 1.7 Tm /F2 10.3 Tf 12 TL (PROJECTS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 394.6 cm
-q
-.6 w
-1 J
-.12549 .211765 .360784 RG
-n 0 0 m 513.6 0 l S
-Q
-Q
-q
-1 0 0 1 49.2 367.6 cm
-q
-BT 1 0 0 1 0 14.1 Tm 11.5 TL /F2 8.9 Tf .101961 .101961 .101961 rg (FlowMatrix \227 Real-Time E-Commerce Data Pipeline  ) Tj (|) Tj (  Kafka, PySpark, dbt, Airflow, Great Expectations, PostgreSQL  ) Tj (|) Tj ( ) Tj T* (flowmarics.streamlit.app) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 344.5 cm
-q
-BT 1 0 0 1 12 13.9 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 Built an end-to-end ELT pipeline \(Kafka ) Tj /F4 8.7 Tf 11.3 TL (\256) Tj /F1 8.7 Tf 11.3 TL ( PySpark ) Tj /F4 8.7 Tf 11.3 TL (\256) Tj /F1 8.7 Tf 11.3 TL ( dbt ) Tj /F4 8.7 Tf 11.3 TL (\256) Tj /F1 8.7 Tf 11.3 TL ( PostgreSQL\) modeled on the Olist dataset as a Rakuten Ichiba) Tj T* (proxy; processed 1,247 streaming events into 7 dbt models with 34 automated data-quality tests \(100% pass rate\).) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 319.9 cm
-q
-BT 1 0 0 1 12 13.9 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 Orchestrated ingestion-to-dashboard refresh via a 6-task Airflow DAG with automated retry logic, achieving end-to-end pipeline) Tj T* (runtime under 2 minutes; deployed a live Streamlit front-end backed by PostgreSQL \(Neon Serverless\).) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 304.4 cm
-q
-BT 1 0 0 1 0 2.6 Tm 11.5 TL /F2 8.9 Tf .101961 .101961 .101961 rg (Real-Time 3D Asset Data Pipeline & Serving API  ) Tj (|) Tj (  Python, FastAPI, Three.js, NLP) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 281.3 cm
-q
-BT 1 0 0 1 12 13.9 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 Built an ETL pipeline with FastAPI: streamed binary .glb assets over HTTP, parsed prompts via NLP keyword-matching into) Tj T* (metadata queries, and served them through a thread-safe cache, cutting repeat-load latency to near-zero.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 254.3 cm
-q
-BT 1 0 0 1 0 14.1 Tm 11.5 TL /F2 8.9 Tf .101961 .101961 .101961 rg (Weather ETL Dashboard  ) Tj (|) Tj (  JavaScript, OpenWeatherMap API  ) Tj ( ) Tj (\177) Tj ( ) Tj (  Kisan-Sahayak \227 AI Agricultural Assistant  ) Tj (|) Tj (  Python,) Tj T* (NLP, Translation API) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 242.5 cm
-q
-BT 1 0 0 1 12 2.6 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 Client-side ETL dashboard streaming live weather/AQI data for 5 cities, zero-backend, deployed on GitHub Pages.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 217.9 cm
-q
-BT 1 0 0 1 12 13.9 Tm 11.3 TL /F1 8.7 Tf .101961 .101961 .101961 rg (\177 AI assistant \(AI For Bharat Hackathon, national-level\) delivering real-time crop prices and farming advice in Tamil and Hindi via) Tj T* (an NLP translation pipeline.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 200.4 cm
-q
-.12549 .211765 .360784 rg
-BT 1 0 0 1 0 1.7 Tm /F2 10.3 Tf 12 TL (CERTIFICATIONS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 197.8 cm
-q
-.6 w
-1 J
-.12549 .211765 .360784 RG
-n 0 0 m 513.6 0 l S
-Q
-Q
-q
-1 0 0 1 49.2 183.3 cm
-q
-BT 1 0 0 1 0 3.2 Tm 11.5 TL /F1 8.3 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.3 Tf (Introduction to Data Engineering) Tj /F1 8.3 Tf ( \227 IBM / Coursera  ) Tj (\227) Tj (  May 2026) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 170.8 cm
-q
-BT 1 0 0 1 0 3.2 Tm 11.5 TL /F1 8.3 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.3 Tf (Python for Data Science, AI & Development) Tj /F1 8.3 Tf ( \227 IBM / Coursera  ) Tj (\227) Tj (  Jul 2026) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 158.3 cm
-q
-BT 1 0 0 1 0 3.2 Tm 11.5 TL /F1 8.3 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.3 Tf (Python Project for Data Engineering) Tj /F1 8.3 Tf ( \227 IBM / Coursera  ) Tj (\227) Tj (  Jul 2026) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 145.8 cm
-q
-BT 1 0 0 1 0 3.2 Tm 11.5 TL /F1 8.3 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.3 Tf (Google Cloud Data Analytics Certificate) Tj /F1 8.3 Tf ( \227 Google Cloud  ) Tj (\227) Tj (  Jul 2026) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 133.3 cm
-q
-BT 1 0 0 1 0 3.2 Tm 11.5 TL /F1 8.3 Tf .101961 .101961 .101961 rg (\177 ) Tj /F2 8.3 Tf (Computer Architecture & Organization) Tj /F1 8.3 Tf ( \227 NPTEL / IIT Kharagpur  ) Tj (\227) Tj (  Jul\226Oct 2025) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 115.8 cm
-q
-.12549 .211765 .360784 rg
-BT 1 0 0 1 0 1.7 Tm /F2 10.3 Tf 12 TL (EDUCATION) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 113.2 cm
-q
-.6 w
-1 J
-.12549 .211765 .360784 RG
-n 0 0 m 513.6 0 l S
-Q
-Q
-q
-1 0 0 1 49.2 75.4 cm
-q
-BT 1 0 0 1 0 26.1 Tm 11.6 TL /F2 8.7 Tf .101961 .101961 .101961 rg (B.Tech, Artificial Intelligence & Data Science) Tj /F1 8.7 Tf (  ) Tj (|) Tj (  2024 \226 2028  ) Tj (|) Tj (  Dhanalakshmi Srinivasan Engineering College \(Autonomous\),) Tj T* (Perambalur, Tamil Nadu) Tj  T* (CGPA: 8.5 \(through 4th semester\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 57.9 cm
-q
-.12549 .211765 .360784 rg
-BT 1 0 0 1 0 1.7 Tm /F2 10.3 Tf 12 TL (LANGUAGES) Tj T* ET
-Q
-Q
-q
-1 0 0 1 49.2 55.3 cm
-q
-.6 w
-1 J
-.12549 .211765 .360784 RG
-n 0 0 m 513.6 0 l S
-Q
-Q
-q
-1 0 0 1 49.2 40.7 cm
-q
-BT 1 0 0 1 0 2.9 Tm 11.6 TL /F1 8.7 Tf .101961 .101961 .101961 rg (Tamil \(Native\)  ) Tj (\177) Tj (  English \(Advanced\)  ) Tj (\177) Tj (  Japanese \(Beginner \227 preparing for JLPT N5\)) Tj T* ET
-Q
-Q
- 
-
-endstream
 endobj
 6 0 obj
 <<
-/F1 7 0 R
-/F2 8 0 R
-/F3 9 0 R
-/F4 10 0 R
+/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260926183618+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260926183618+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 9 0 obj
 <<
-/BaseFont /Helvetica-Oblique
-/Encoding /WinAnsiEncoding
-/Name /F3
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 6 0 R ] /Type /Pages
 >>
 endobj
 10 0 obj
 <<
-/BaseFont /Symbol
-/Name /F4
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3379
 >>
+stream
+GauHN>BALj&q801ka0PW?,0!e>L(E$N#`nB3C_\C[YgD;)T)^61)f+jC4H/)O-$kAM*ojs1+nRKdbS8SJ),_X2>f?(?cND][c-N&!5es:)%<Q\JN\\#rT;9BA+QSJWLD2>l8[l"pq1@kN)%iP_bW:BK8UWCqK9#j>h]CV9l$4&X_cRIC7@\0(J=GX5IqrJ:[mudm*B)>""Lq#G_k8Ip[B;;-TfE+DIuo;B3:.neZ<!>&gZ"(bL``%kR^b#M*J,;:H=2.2i`P*_&R?[@aGYJ,2c_CeAUnF!8aU!-][,9_dT8PQNo!)q>SBHc>GI7T"SHId+R_56bR1l%aX"/iGY@eZe70p:9E"CfA(#UX#_Dm<hHMdht.#d'>]jD,+ub&&R9`r05SI8793+"YZRf@cAq&2Kj#`X4X5=0,qU+NB1q27en)(R00FJeDGl3Ti!Pe9B4&0tqIt+V>EG6^X+N/G7]Y3mC;!bc[B1[4)._;-b%cT[kDe=jP>@rNpZXoqroZ1Ui1tJ4-G89prOJJkmbS(mWXfQ6Nc3ObK?;5(lW1IXhH=hPKrBR/F47"j4R5mAg-[+$1JX&;08gBRM=B:;=PuNY&5`ju%,Jj!+q,s+>'h55&TP0?O$PP/5Wl(N$fH(=/%s;u<lF/binS@$#TPL;l.N0T^5SGBibKEP/!`B)k9[1-Yi<qBn-\0lkL/&O!]+qYL!M"g%G72-!;CbJb=(k##0oQZf\^2c&Fr2THY%/AjFqAsgCl(I08MPpM$e[.n/8oAq3!F-W-*OnB>L-M>_QMJ5DN.A)+r!j)9+BPJ'MO:*iA1!bOF#Rf[(WLip"'1.*7&X-fO@T9B5[j_Sb@fAr9n#-*A<LCRajsOO'j2)Hu)Kh!Fj-j=L'(;ZCON*MpgK2VK-UY"4W&dOg@l*hWr%0NN8:-bg28(d;mB+6As*6V4dei`VAc;E4s5UGCVYi>b;PH"#]ui<,8o-='l[2egdI>oq"/Iosr+@P^%-MRI)8KGtLO/d$\36AN`)UIkAk1I53qX#_:lN,5UaZVb9n*EW`!i[j;W<f1SS)$R)W31A6p[P-aq*s]^BUhILIcG-_r@raU?hfpW7**PFIr<F<hC:%/Y*$lae'1tV-bS,^bI_QcCf.+U]XVP>qi#r6ZZP>habZHD9NB2A>EMSC)U;\/_YBlB6/N$_VbUWJkTcQ62PNWR6-Nrbi_lNd`/jhR,k^]o-h-KKna#5Q,r]r^R]=q?A5sO(2(7h'RY@7m3k8lCETu5n-7gi;FUnmpHD,$osqdF;iS%ADES*pK>#EHW5Jq8VK%u!8g6YFO&I].e%`tZKP&jL?GV!MA0Cnl`7J$H5eP55#%Pfm"Hc=>q5Q#K&-Cu[G/n6!neSVW\rO5hh'K<*Dh`9IlNE>_6%*X['Xc=ETqEQ8/VOWO*hG>Os+H9I<:59%B6IuaD%KDn6A?aM0mKaYr*"pW*0O7@HNN<LS!VeYQ(U7JD*0Q4'I"Mqj,<1'\JpLSWI5e^DBQTN0@gDY/Qr`_lSRYBOFd'NW=:[#F4A19VOI3VL]#jD@:e_,9+5n;$&I1d+gBgObH@tB739M95IiI$K%p"M6(XnM!5nM:akM,!&N3]Ug2G(gD-Kt<"lI%@2UdVk"tqkIY18ff^U6VUGCf[WtC.X-#9OP[+:RAo/C;:Q[d7`-;PPLZW1J"_N-(.6Q.HXXj(I"\Ih8#;Tai=9:rJZ:YDh[(d=ELLNF#ZMY&;G`o_ol!r%n/,pLI%(*nU_)3(FuW70R&A.^B9/F5l(oLi*S/BBW17WS(3_b/#NdQTd?g)+L7ZHKSB@,CR(e-$NPZlue_2GMAO>n]l1)LFZO>uZ<QjXSjT9D7eN(IVC=IPa2R[Iu[\^Xf.C/?L9M5c'SFJkZd`\XH*B_?0]ag`^RV[D1ASjHLiF9@.Bel!*(osZVQFNtH.e)GDUR@t3b9?m(CLfl-'\O%_Y4r#g2R`\Ce;>-9Yd0P#bt:p@d6(qSq-^)0f1r59qR&EJG*p!:.lDENoIt=+7o*OW9qE8E7HGFLW5E[TTauTXPKR`RN%5`VdqV0`2QH4"ap!Z[CDB0/T3(IrVq$+L3`E88_Fcl?ENf'pLfg`_&0))7!YEl+'>36N61C6Xp3=`m9qXQc/7-Oe.]k"H`iuq&Q!gPmAd)2DbT$Y$\p&qc$-AH;K,;geK@Mq2Q0X<W#A+jlEa?j6:un-\Z8MaVM^F:1gU9CMg'HB;h.IT09!:.j&=VaS*=&+#%]Y+ir>Nq>!Zkn5jspM[2W3)'TGnQsp;>-ZI5Xt3Z2);qPEiM#!FRQ+kLIlqAWX<L>7e,^VFJ0g[(r,P)^;ZN2eRNQE=F[W#T,n$3qm7M@OQR3+drGTD]:2:N!eW@kZE:e,6TN]$'osuAWU+^&5blj)`(o_&>(JMoBV_GX(<>j]1H]lp@41PP;r],ro;5)`9`nE6cF$_S4)W@O5pnmm>;]8(U+tAJV3q=6@d$NjY&6EOtH6u'<6J'QMQ63]gpN8:$upi4FF&XnJLe(1Maq'?0H)gaB3d"0Th3Z"dKBuYVfX^kn(BrGE,fSnPg]hRpbJ&.i,()5g8VgCIXfiKjNL*_]olZXC7Yp?9_:UpH4#3[h9(8CZTDceM]OfNRLj.=5Da=.6So)MA?mu@u*fbdIAH#GC$D?et#VZOr94Xj\uA?HL:9S)(idIUJQ6A6QRBuNTH[:<]hS^R.$uoZV!<KP%'N5X,[T5F?"i>9`*'jP?LK#?/[U3[*9$`NI;@h/''5^S"nT!K;ormB+^e-24F/CL7Iu6:\N^id-KD<a+j_RC2-8O0L[i[a"XAob1u`=Z>oh5HU2t0DIL;XJg8%4T]!1oLZrc9fklN@U_?\1c?eHA!^].G>[pssm[o;m/3;^)R:fGes(s>+D<k`>];3NGK\c$QSe6*a4b>18h@`L.P+<5(`7Efj@dCP?G?Fsq!1MKX3u=aTc/!);.f7nal"_QX:V?.Y[*e^2`n\WrhGg\hba5QsG=lTJC*28IR2rZ,2A]C(&rSPdSnbdK6H]/.G>)b1,]pHE`=bHbZtCS>[6D_n$cHC5%@e#.hnGdE#6Po/;T>.qM**"721qhV7(o5pToD_$PkArYV-0U-_a`Kc\QBJY[8/])c"9]nRp,qs8/8;.2KooR92aQ%9tSR>`*@d2A,j^ia#=!RC_*XUV>WFPYC/6TZXAT3[Yu$:J-ifn=L"6.Jt;5WhPQ!\S-:F[+S<R)HE#Yg-M25+`k4_-IP!kslg`if\GKT^[prUa.(t=K0BPG6Vd(![$(JrR(rrlXE;->Yf.X]fls-,t=B5X>;r-CSr2N/bAupg]V9TPif[^C?6;M!OO(NH7%)LqpId`js/Dr89pR7l-"8u4BFSZ89/#EnD@K1d9[c*p"A1Vus5P-e9P5~>endstream
 endobj
 xref
 0 11
 0000000000 65535 f 
-0000000015 00000 n 
-0000000344 00000 n 
-0000000403 00000 n 
-0000000452 00000 n 
-0000000641 00000 n 
-0000010000 00000 n 
-0000010062 00000 n 
-0000010169 00000 n 
-0000010281 00000 n 
-0000010396 00000 n 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000456 00000 n 
+0000000533 00000 n 
+0000000727 00000 n 
+0000000795 00000 n 
+0000001075 00000 n 
+0000001134 00000 n 
 trailer
 <<
+/ID 
+[<4c4b5883fb5a721db4b598ba08a5d8fa><4c4b5883fb5a721db4b598ba08a5d8fa>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
 /Size 11
-/Root 3 0 R
-/Info 1 0 R
 >>
 startxref
-10474
+4605
 %%EOF
