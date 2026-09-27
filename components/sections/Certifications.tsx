@@ -7,15 +7,16 @@ import SectionHeader from "@/components/ui/SectionHeader";
 
 // IDs shown in the grid — in display order
 const DISPLAY_IDS = [
+  "cs50-sql",           // Harvard — top slot
   "google-cloud-da",
   "ibm-python-de",
-  "ibm-python-ds",      // IBM Python for Data Science — moved up
+  "ibm-python-ds",
   "ibm-intro-de",
-  "aws-cloud-practitioner",
   "nptel-computer-arch",
 ];
 
 const issuerColors: Record<string, string> = {
+  "Harvard University": "#A41034",
   "NPTEL / IIT Kharagpur": "#f59e0b",
   "AICTE + EduSkills + Google for Developers": "#22d3ee",
   "Tata / Forage": "#a78bfa",
@@ -34,6 +35,7 @@ function getIssuerColor(issuer: string): string {
 }
 
 const issuerDomains: Record<string, string> = {
+  "Harvard University": "https://www.harvard.edu/wp-content/uploads/2021/12/harvard-university-logo.png",
   "Google": "google.com",
   "IBM": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
   "Amazon Web Services (AWS)": "aws.amazon.com",
@@ -60,7 +62,7 @@ export default function Certifications() {
         <SectionHeader
           label="Credentials"
           title="Certifications"
-          subtitle="Verified certifications from IBM, Google Cloud, AWS, and NPTEL."
+          subtitle="Verified certifications from Harvard University, Google Cloud, IBM, and NPTEL."
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

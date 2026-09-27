@@ -9,6 +9,14 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
+    id: "cs50-sql",
+    name: "CS50's Introduction to Databases with SQL",
+    issuer: "Harvard University",
+    date: "2026",
+    verificationUrl:
+      "https://cs50.harvard.edu/certificates/baaf479b-687d-459b-afd7-df97603e403f",
+  },
+  {
     id: "google-cloud-da",
     name: "Google Cloud Data Analytics Certificate",
     issuer: "Google",
@@ -40,28 +48,12 @@ export const certifications: Certification[] = [
     certificateId: "R8F6TVBMBMA3",
   },
   {
-    id: "coursera-excel",
-    name: "Getting Started with Microsoft Excel",
-    issuer: "Coursera",
-    date: "Apr 2026",
-    verificationUrl: null,
-    certificateId: "2CIWNJI43DVB",
-  },
-  {
     id: "ibm-intro-de",
     name: "Introduction to Data Engineering",
     issuer: "IBM",
     date: "May 2026",
     verificationUrl: null,
     certificateId: "SJOSZ2X27EI6",
-  },
-  {
-    id: "topengineers-ds-python",
-    name: "Data Science with Python Workshop",
-    issuer: "Topengineers",
-    date: "Jun 2026",
-    verificationUrl: null,
-    certificateId: "TOP 2026 309",
   },
   {
     id: "aiml-internship",
@@ -94,5 +86,21 @@ export const certifications: Certification[] = [
     date: "Aug 2026",
     verificationUrl: null,
     certificateId: "414f8b186f0e50891f26",
-  }
+  },
+  {
+    id: "topengineers-ds-python",
+    name: "Data Science with Python Workshop",
+    issuer: "Topengineers",
+    date: "Jun 2026",
+    verificationUrl: null,
+    certificateId: "TOP 2026 309",
+  },
+  {
+    id: "coursera-excel",
+    name: "Getting Started with Microsoft Excel",
+    issuer: "Coursera",
+    date: "Apr 2026",
+    verificationUrl: null,
+    certificateId: "2CIWNJI43DVB",
+  },
 ];
