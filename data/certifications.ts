@@ -12,9 +12,9 @@ export const certifications: Certification[] = [
     id: "cs50-sql",
     name: "CS50's Introduction to Databases with SQL",
     issuer: "Harvard University",
-    date: "2026",
-    verificationUrl:
-      "https://cs50.harvard.edu/certificates/baaf479b-687d-459b-afd7-df97603e403f",
+    date: "Sept2026",
+    verificationUrl: null,
+    certificateId: "baaf479b-687d-459b-afd7-df97603e403f",
   },
   {
     id: "google-cloud-da",

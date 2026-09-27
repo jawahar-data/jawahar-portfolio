@@ -35,7 +35,7 @@ function getIssuerColor(issuer: string): string {
 }
 
 const issuerDomains: Record<string, string> = {
-  "Harvard University": "https://www.harvard.edu/wp-content/uploads/2021/12/harvard-university-logo.png",
+  "Harvard University": "https://upload.wikimedia.org/wikipedia/commons/7/70/Harvard_University_logo.svg",
   "Google": "google.com",
   "IBM": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
   "Amazon Web Services (AWS)": "aws.amazon.com",
