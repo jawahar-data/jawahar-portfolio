@@ -36,7 +36,7 @@ export default function Hero() {
         >
           <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl relative bg-zinc-900">
             <Image
-              src="/images/profile-v2.png"
+              src="/images/profile-v3.png"
               alt={profile.name}
               fill
               sizes="(max-width: 768px) 192px, 224px"
