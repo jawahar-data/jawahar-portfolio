@@ -9,7 +9,7 @@ export const profile = {
   email: "j26219096@gmail.com",
   linkedin: "https://www.linkedin.com/in/jawahar-r-2114a932b",
   github: "https://github.com/jawahar-data",
-  resumePath: "/Jawahar_R_Resume.pdf",
+  resumePath: "/Jawahar_R_ATS_Resume_1Page.pdf",
   education: {
     degree: "B.Tech — Artificial Intelligence & Data Science",
     college: "Dhanalakshmi Srinivasan Engineering College (Autonomous)",
@@ -33,3 +33,4 @@ export const profile = {
     "Japanese Language (JLPT N5)",
   ],
 };
+
