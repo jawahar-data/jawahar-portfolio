@@ -27,6 +27,8 @@ export const projects: Project[] = [
       "Orchestrated a 6-task Apache Airflow DAG and structured 7 dbt models to produce analytics-ready tables in a Neon serverless PostgreSQL warehouse.",
       "Enforced 34 automated Great Expectations data-quality tests (100% pass rate); processed 1,247 streaming events (500 orders + 747 payments) in a verified full-pipeline test run with end-to-end runtime under 2 minutes.",
       "Streamlit dashboard and Neon PostgreSQL are live and publicly accessible; Kafka, PySpark, and Airflow run locally via Docker during development and demo.",
+      "Extended the pipeline into an AWS data lake over 99,441 Olist orders: S3 bucket provisioned with Terraform (private, versioned, encrypted) with Bronze (raw CSV), Silver (typed Parquet), and Gold (pre-aggregated) layers built by idempotent Athena SQL; order counts reconcile across Bronze and Silver, and GitHub Actions validates on every push.",
+      "Cut data scanned for a revenue-by-state query from ~17.6 MB on raw CSVs to under 1 KB on a Gold table; pointed the live Streamlit dashboard at the Gold layer through a least-privilege, read-only IAM identity.",
     ],
     techStack: [
       "Python",
@@ -77,24 +79,6 @@ export const projects: Project[] = [
     ],
     techStack: ["Python", "SQL", "NLP", "Data Analysis"],
     repoUrl: "https://github.com/jawahar-data/Kisan-Sahayak",
-  },
-  {
-    id: "3d-asset-pipeline",
-    title: "Real-Time 3D Asset Data Pipeline & Serving API",
-    organization: "Open Source",
-    period: "2026",
-    shortDescription:
-      "FastAPI backend for on-demand retrieval, thread-safe caching, and delivery of 3D binary assets to a WebGL frontend.",
-    description: [
-      "Engineered a FastAPI serving layer that ingests NLP prompts, maps them to 3D asset identifiers, and fetches .glb files from a remote GitHub object store.",
-      "Implemented a thread-safe local cache to eliminate redundant network fetches and reduce per-request latency significantly.",
-      "Designed the REST API response structure to stream binary payloads directly to a Three.js WebGL renderer in the browser.",
-    ],
-    techStack: ["Python", "FastAPI", "Uvicorn", "Three.js", "ETL", "Caching"],
-    repoUrl:
-      "https://github.com/jawahar-data/Real-Time-3D-Asset-Data-Pipeline-Serving-API",
-    liveUrl:
-      "https://jawahar-data.github.io/Real-Time-3D-Asset-Data-Pipeline-Serving-API/",
   },
 ];
 

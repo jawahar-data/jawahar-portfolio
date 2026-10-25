@@ -13,7 +13,7 @@ export const skillGroups: SkillGroup[] = [
   {
     category: "Frameworks & Development",
     icon: "layers",
-    skills: ["FastAPI", "Uvicorn", "Three.js", "REST APIs"],
+    skills: ["FastAPI", "Uvicorn", "Three.js", "REST APIs", "REST API Design"],
   },
   {
     category: "Cloud & Warehousing",
@@ -24,6 +24,10 @@ export const skillGroups: SkillGroup[] = [
       "AWS",
       "PostgreSQL (Neon)",
       "SQL Analytics",
+      "Amazon Athena",
+      "Amazon S3",
+      "Terraform",
+      "Render.com",
     ],
   },
   {
@@ -56,6 +60,8 @@ export const skillGroups: SkillGroup[] = [
       "Data Ingestion",
       "Data Quality (Great Expectations)",
       "Real-Time Stream Processing",
+      "Medallion Architecture",
+      "Data Modeling",
     ],
   },
 ];
