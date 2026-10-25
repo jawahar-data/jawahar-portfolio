@@ -15,7 +15,7 @@ export const profile = {
     college: "Dhanalakshmi Srinivasan Engineering College (Autonomous)",
     location: "Perambalur, Tamil Nadu",
     period: "2024 – 2028",
-    cgpa: "8.5 (4th sem)",
+    cgpa: "8.5 (through 4th semester)",
     focus: "Data Engineering / Data Analyst / Cloud Data Analyst",
   },
   languages: [

@@ -11,6 +11,7 @@ import {
   Mail,
   Download,
   Sparkles,
+  Award,
 } from "lucide-react";
 import { GitHubIcon, LinkedInIcon } from "@/components/ui/Icons";
 import { profile } from "@/data/profile";
@@ -175,6 +176,7 @@ export default function About() {
                 {[
                   { icon: <GraduationCap size={15} />, label: "Degree", value: education.degree },
                   { icon: <Target size={15} />, label: "College", value: education.college },
+                  { icon: <Award size={15} />, label: "CGPA", value: education.cgpa },
                   { icon: <Calendar size={15} />, label: "Period", value: education.period },
                   { icon: <MapPin size={15} />, label: "Location", value: profile.location },
                   { icon: <Database size={15} />, label: "Focus", value: education.focus },
