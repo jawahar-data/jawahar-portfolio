@@ -20,7 +20,7 @@ export const projects: Project[] = [
     organization: "Open Source",
     period: "Jun 2026 – Jul 2026",
     shortDescription:
-      "End-to-end ELT pipeline for e-commerce order analytics — Kafka → PySpark → Airflow + dbt → PostgreSQL, with a live Streamlit dashboard. Verified: 1,247 events processed in a full pipeline run, 7 dbt models, 34 data-quality tests (100% pass rate), 6-task Airflow DAG, <2 min end-to-end runtime.",
+      "FlowMatrix is a production-grade, end-to-end data engineering platform built around a real e-commerce use case. It streams live events through Apache Kafka, processes them at scale with PySpark, and orchestrates the entire workflow via Apache Airflow. Raw data lands in an AWS S3 Data Lake structured across Bronze, Silver, and Gold layers, all queryable on-the-fly via Amazon Athena. dbt handles transformation logic and enforces data quality with schema tests, persisting results in PostgreSQL. Infrastructure is provisioned with Terraform, deployments automated via GitHub Actions, and business insights surfaced through a live Streamlit dashboard — making FlowMatrix a full analytics product from ingestion to insight.",
     description: [
       "Designed and implemented a complete ELT pipeline modeled on e-commerce order workflows, covering stream ingestion, distributed transformation, analytics engineering, orchestration, and data quality validation.",
       "Built a Kafka stream ingestion layer with consumer groups; wrote PySpark jobs to clean, deduplicate, and schema-validate raw event records before loading.",
@@ -97,3 +97,4 @@ export const projects: Project[] = [
       "https://jawahar-data.github.io/Real-Time-3D-Asset-Data-Pipeline-Serving-API/",
   },
 ];
+
