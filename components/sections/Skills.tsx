@@ -1,116 +1,84 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Database, Layers, Cpu, Wrench, BookOpen } from "lucide-react";
-import { skillGroups, exploringSkills } from "@/data/skills";
+import { Code2, Database, Layers, Cpu, Wrench, BookOpen, Cloud, Server } from "lucide-react";
+import { skillGroups } from "@/data/skills";
 import SectionHeader from "@/components/ui/SectionHeader";
 
 const iconMap: Record<string, React.ReactNode> = {
-  code: <Code2 size={18} />,
-  layers: <Layers size={18} />,
-  database: <Database size={18} />,
-  cpu: <Cpu size={18} />,
-  tool: <Wrench size={18} />,
+  database: <Database size={16} />,
+  cloud: <Cloud size={16} />,
+  code: <Code2 size={16} />,
+  cpu: <Cpu size={16} />,
+  tool: <Wrench size={16} />,
+  book: <BookOpen size={16} />,
 };
 
 export default function Skills() {
   return (
-    <section id="skills" className="section-padding" style={{ background: "var(--bg-base)" }}>
+    <section
+      id="skills"
+      className="section-padding border-t border-[var(--border)] scroll-mt-20"
+      style={{ background: "var(--bg-surface)" }}
+    >
       <div className="container-xl">
         <SectionHeader
           label="Technical Profile"
-          title="Skills"
-          subtitle="Technologies I use to design, build, and ship data systems and applications."
+          title="Skills &amp; Technologies"
+          subtitle="Distributed stream processing, cloud data warehouses, backend APIs, and pipeline orchestration."
         />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {skillGroups.map((group, gi) => (
-            <motion.div
-              key={group.category}
-              className="glass-card p-5"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, margin: "-60px" }}
-              transition={{ delay: gi * 0.08, duration: 0.4 }}
-            >
-              {/* Header */}
-              <div className="flex items-center gap-2.5 mb-4">
-                <div
-                  className="w-8 h-8 rounded-lg flex items-center justify-center"
-                  style={{
-                    background: "var(--accent-cyan-dim)",
-                    color: "var(--accent-cyan)",
-                  }}
-                >
-                  {iconMap[group.icon]}
-                </div>
-                <h3
-                  className="font-semibold text-sm"
-                  style={{ color: "var(--text-primary)" }}
-                >
-                  {group.category}
-                </h3>
-              </div>
-
-              {/* Skills */}
-              <div className="flex flex-wrap gap-2">
-                {group.skills.map((skill) => (
-                  <span
-                    key={skill}
-                    className="tag-chip"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </motion.div>
-          ))}
-          {/* Currently Exploring */}
-          <motion.div
-            className="glass-card p-5"
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, margin: "-60px" }}
-            transition={{ duration: 0.4, delay: 5 * 0.08 }}
-          >
-            <div className="flex items-center gap-2.5 mb-4">
-              <div
-                className="w-8 h-8 rounded-lg flex items-center justify-center"
-                style={{
-                  background: "var(--accent-cyan-dim)",
-                  color: "var(--accent-cyan)",
-                }}
+        {/* Perfectly Balanced 3x2 Matrix Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4.5 mt-6">
+          {skillGroups.map((group, gi) => {
+            const isCore = group.category === "Data Engineering";
+            return (
+              <motion.div
+                key={group.category}
+                className={`pro-card p-5 flex flex-col justify-between h-full bg-[var(--bg-card)] ${
+                  isCore ? "ring-1 ring-[var(--border-hover)]" : ""
+                }`}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, margin: "-30px" }}
+                transition={{ delay: gi * 0.04, duration: 0.3 }}
               >
-                <BookOpen size={18} />
-              </div>
-              <div>
-                <h3
-                  className="font-semibold text-sm"
-                  style={{ color: "var(--text-primary)" }}
-                >
-                  Currently Exploring
-                </h3>
-                <p className="text-xs mt-0.5" style={{ color: "var(--text-muted)" }}>
-                  Actively learning right now
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {exploringSkills.map((skill) => (
-                <span
-                  key={skill}
-                  className="tag-chip"
-                  style={{
-                    background: "var(--accent-cyan-dim)",
-                    borderColor: "rgba(34,211,238,0.2)",
-                    color: "var(--accent-cyan)",
-                  }}
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </motion.div>
+                <div>
+                  {/* Category Header */}
+                  <div className="flex items-center justify-between gap-2 mb-3 pb-2.5 border-b border-[var(--border)]">
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-[var(--bg-subtle)] text-[var(--text-primary)] border border-[var(--border)] shadow-2xs shrink-0">
+                        {iconMap[group.icon] || <Server size={16} />}
+                      </div>
+                      <h3 className="font-bold text-sm text-[var(--text-primary)]">
+                        {group.category}
+                      </h3>
+                    </div>
+
+                    {group.badge && (
+                      <span className="text-[10px] font-mono font-semibold px-2 py-0.5 rounded border border-[var(--border)] bg-[var(--bg-subtle)] text-[var(--text-muted)] uppercase tracking-wider">
+                        {group.badge}
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Skills Chips */}
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    {group.skills.map((skill) => (
+                      <span
+                        key={skill}
+                        className={`tag-chip ${
+                          isCore ? "font-semibold text-[var(--text-primary)] bg-[var(--bg-subtle)]" : ""
+                        }`}
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>

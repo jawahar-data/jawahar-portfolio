@@ -13,36 +13,27 @@ export default function SectionHeader({
   title,
   subtitle,
   centered = false,
+  children,
 }: SectionHeaderProps) {
   return (
-    <div className={`mb-12 flex flex-col ${centered ? "items-center text-center" : "items-start"}`}>
-      <span
-        className="text-sm font-semibold tracking-[0.2em] uppercase mb-4 block"
-        style={{ color: "var(--accent-cyan)" }}
-      >
+    <div className={`mb-10 flex flex-col ${centered ? "items-center text-center" : "items-start"}`}>
+      <span className="text-[11px] font-bold tracking-[0.2em] uppercase mb-2 text-[var(--text-muted)]">
         {label}
       </span>
-      <h2
-        className="text-4xl sm:text-5xl font-heading font-bold mb-4 tracking-tight"
-        style={{ color: "var(--text-primary)" }}
-      >
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-3 text-[var(--text-primary)]">
         {title}
       </h2>
       {subtitle && (
         <p
-          className="text-base max-w-2xl leading-relaxed"
+          className="text-sm sm:text-base max-w-2xl leading-relaxed text-[var(--text-secondary)]"
           style={{
-            color: "var(--text-secondary)",
             margin: centered ? "0 auto" : undefined,
           }}
         >
           {subtitle}
         </p>
       )}
-      <div
-        className="section-divider mt-6"
-        style={centered ? { margin: "0 auto" } : undefined}
-      />
+      {children}
     </div>
   );
 }
