@@ -7,6 +7,13 @@ export interface Achievement {
 
 export const achievements: Achievement[] = [
   {
+    id: "nasa-space-apps",
+    icon: "rocket",
+    title: "Participant, NASA Space Apps Challenge 2026",
+    description:
+      "Participated in the NASA Space Apps Challenge 2026 at the Virudhunagar local event. Built CELESTIAL X — a spatiotemporal fire-event association system that groups NASA FIRMS MODIS and VIIRS satellite hotspot detections into persistent fire events using H3 indexing and Haversine distance.",
+  },
+  {
     id: "ai-for-bharat",
     icon: "trophy",
     title: "National-Level AI For Bharat Hackathon",

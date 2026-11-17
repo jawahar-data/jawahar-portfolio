@@ -30,6 +30,11 @@ function ProjectFolder({ project, isOpen, onToggle, index }: { project: Project;
             <h3 className="text-lg md:text-xl font-bold text-white leading-tight">
               {project.title}
             </h3>
+            {project.badge && (
+              <span className="inline-block mt-1 px-2 py-0.5 text-xs font-semibold rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                {project.badge}
+              </span>
+            )}
           </div>
         </div>
         <div className="text-gray-400 shrink-0 ml-4">
@@ -50,11 +55,21 @@ function ProjectFolder({ project, isOpen, onToggle, index }: { project: Project;
               <p className="text-white font-medium mb-4">{project.shortDescription}</p>
 
               <div className="flex flex-col gap-3 mb-6">
-                {project.description.map((desc, i) => (
-                  <p key={i} className="text-sm text-gray-300 leading-relaxed">
-                    {desc}
-                  </p>
-                ))}
+                {project.description.map((desc, i) => {
+                  const isDisclaimer = desc.startsWith("⚠️");
+                  return (
+                    <p
+                      key={i}
+                      className={
+                        isDisclaimer
+                          ? "text-xs text-amber-400/80 leading-relaxed italic border border-amber-400/20 rounded-md px-3 py-2 bg-amber-400/5"
+                          : "text-sm text-gray-300 leading-relaxed"
+                      }
+                    >
+                      {desc}
+                    </p>
+                  );
+                })}
               </div>
 
               {/* Architecture diagram for FlowMatrix only */}

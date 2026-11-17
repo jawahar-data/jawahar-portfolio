@@ -49,6 +49,24 @@ export const projects: Project[] = [
     badge: "Featured",
   },
   {
+    id: "celestial-x",
+    title: "CELESTIAL X: Satellite Fire-Event Association",
+    organization: "NASA Space Apps Challenge 2026",
+    period: "NASA Space Apps Challenge 2026, Virudhunagar local event, team of 3",
+    shortDescription:
+      "NASA Space Apps Challenge 2026, Virudhunagar local event, team of 3",
+    description: [
+      "A satellite can detect the same ongoing fire on many days, so counting every detection as a new fire overstates fire activity. CELESTIAL X treats this as an entity-resolution problem.",
+      "FIRE-FUSE, a spatiotemporal method, groups NASA FIRMS MODIS and VIIRS hotspot detections into persistent fire events using H3 spatial indexing to find nearby candidates, Haversine distance to compare them, and day-to-day temporal matching to link them.",
+      "The Streamlit app has an interactive satellite map and a fire-event view.",
+      "⚠️ Satellite detections are not confirmed ground-level fires; event grouping is an analytical estimate.",
+    ],
+    techStack: ["Python", "Streamlit", "SQLite", "H3", "PyDeck", "NASA FIRMS"],
+    repoUrl: "https://github.com/jawahar-data/celestial-x-nasa",
+    liveUrl: "https://celestial-x-nasa.streamlit.app",
+    badge: "NASA Space Apps",
+  },
+  {
     id: "weather-etl",
     title: "Weather ETL Dashboard (Live City Pulse)",
     organization: "Open Source",
